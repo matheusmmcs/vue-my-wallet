@@ -21,16 +21,17 @@ export default {
 
   methods: {
     getQuote() {
-      this.$http
-        .get('http://localhost:3001/api/protected/random-quote', (data) => {
+      this.$http.get('http://localhost:3001/api/protected/random-quote', (data) => {
           this.quote = data;
-        }, { 
+        }, {
           headers: auth.getAuthHeader()
         })
         .error((err) => console.log(err))
     }
   },
 
+  // Check the users auth status before
+  // allowing navigation to the route
   route: {
     canActivate() {
       return auth.user.authenticated

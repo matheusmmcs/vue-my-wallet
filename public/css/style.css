@@ -1,0 +1,42 @@
+
+.mw-panel-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mw-col-center {
+    margin: 0 auto;
+    float: none;
+}
+
+.mw-row-no-margin.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.mw-row-margin.row {
+    margin: 10px;
+}
+
+/* Forms */
+.mw-label-line-height {
+    line-height: 32px;
+}
+.mw-width-100p {
+    width: 100% !important;
+}
+.mw-form-well.well {
+    margin: 10px;
+    padding-top: 0;
+}
+.mw-form-title {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    
+    text-align: center;
+    font-size: 18px;
+
+    margin-top: 0;
+
+    color: #5d5d5d;
+    border-color: #DDD;
+}

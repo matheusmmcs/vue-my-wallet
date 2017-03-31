@@ -26,6 +26,20 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 npm run dev
 ```
 
+## Migration
+
+https://vuejs.org/v2/guide/migration.html
+https://vuejs.org/v2/guide/migration-vue-router.html
+
+#- Router:
+https://router.vuejs.org/en/essentials/navigation.html
+
+#- Vue:
+https://vuejs.org/v2/guide/computed.html
+
+
+
+
 ## Important Snippets
 
 The entry point for the app is at `src/index.js`. Here we import everything we need and set up routing.

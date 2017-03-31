@@ -23,5 +23,16 @@ module.exports = {
   babel: {
     presets: ['es2015'],
     plugins: ['transform-runtime']
+  },
+
+  resolve: {
+    extensions: ['', '.js', '.vue'],
+    //fallback: [path.join(__dirname, '../node_modules')],
+    alias: {
+      'vue': 'vue/dist/vue.common.js'
+      // 'src': path.resolve(__dirname, '../src'),
+      // 'assets': path.resolve(__dirname, '../src/assets'),
+      // 'components': path.resolve(__dirname, '../src/components')
+    }
   }
 }
